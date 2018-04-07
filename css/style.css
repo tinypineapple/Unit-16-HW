@@ -1,0 +1,47 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+.name {
+    color: royalblue;
+}
+
+.Tomo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+i {
+    padding-right: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Global Classes */
+ h2::before {
+
+ }
