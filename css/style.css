@@ -3,6 +3,18 @@
     box-sizing: border-box;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} 
+
 body {
     background: white;
     color: black;
@@ -26,22 +38,32 @@ h1 {
     border-radius: 50%;
 }
 
-.column {
+.column-left {
     float: left;
     width: 50%;
+    text-align:left;
+    margin-left: 10%;
+    height: 100%
+}
+
+.column-right {
+    display: block;
+    margin-right: 10%;
+    height: 100%;
+}
+
+
+ul {
+    list-style-type:none;
 }
 
 i {
     padding-right: 10px;
-}
+}   
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* Global Classes */
- h2::before {
+#sidebar {
+    width: 20%;
+    height: 100px;
+    float: left;
 
- }
+}
