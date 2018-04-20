@@ -76,6 +76,11 @@ i {
     vertical-align: middle;
 }
 
-.table table-dark tr {
+.table table-dark tr    {
     border-spacing: 5px;
+}
+
+.company {
+    background: grey;
+    width: 100%;
 }
