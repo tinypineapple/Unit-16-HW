@@ -7,9 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
 </head>
 
 <body>
+    <div class="container">
        <header>
             <img class= "Tomo" src="images/IMG_1667.png" alt="Avatar">
             <h1>Hi,
@@ -19,28 +22,49 @@
         </header>
     
         <div class="row">
-            <div class="column-left">
+            <div class="col-sm">
                 <h2>About me</h2>
                 <p>I love cabbage</p>
                 <h2>Education</h2>
-                <div id="sidebar">
-                    <h3>2017</h3>
-                </div>
-                <div id="education-info">
-                    <h3>Dog Academy</h3>
-                    <p>Wiggle Butt Master</p>
-                </div>
+                <table id="education-info">
+                        <tbody>
+                          <tr>
+                           <td class="year">
+                               <h3>2017</h3>
+                            </td>
+                           <td class="company">
+                               <h3>Pochi University</h3>
+                                <p>Wiggle Butt Master</p>
+                           </td>
+                          </tr>
+                        </tbody>
+                </table>
+                
             </div>    
-            <div class="column-right">
+            <div class="col-sm" id="contact">
                 <h2>Contact</h2>
                 <ul>
-                    <li> <i class="material-icons">contact_phone</i>Phone</li>
-                    <li> <i class="material-icons">email</i>Email</li>
-                  </ul>
+                    <li> <i class="material-icons">contact_phone</i>909-888-8888</li>
+                    <li> <i class="material-icons">email</i>tomo@pochiuni.com</li>
+                </ul>
+                <h2>Skills</h2>
+                <table class="table table-dark">
+                        <tbody>
+                          <tr>
+                            <th scope="row">Eating</th>
+                          </tr>
+                          <tr>
+                            <th scope="row">Sleeping</th>
+                          </tr>
+                          <tr>
+                            <th scope="row">Running</th>
+                          </tr>
+                        </tbody>
+                      </table>
 
             </div>
         </div>
-
+        </div>
 </body>
 
 
